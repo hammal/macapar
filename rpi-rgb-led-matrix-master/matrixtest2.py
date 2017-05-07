@@ -24,7 +24,7 @@ matrix = Adafruit_RGBmatrix(32, 4)
 image = Image.new("1", (32, 32)) # Can be larger than matrix if wanted!!
 draw  = ImageDraw.Draw(image)    # Declare Draw instance before prims
 # Draw some shapes into image (no immediate effect on matrix)...
-draw.rectangle((0, 0, 31, 31), fill=0, outline=1)
+draw.rectangle((0, 0, 16, 31), fill=0, outline=1)
 # draw.line((0, 0, 31, 31), fill=1)
 # draw.line((0, 31, 31, 0), fill=1)
 # Then scroll image across matrix...
