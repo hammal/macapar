@@ -47,7 +47,7 @@ for n in range(32, -image.size[0], -1): # Scroll R to L
 # the right edge, so erasing after the scrolled image isn't necessary.
 matrix.Clear()
 image = Image.open("hamp.png")
-size = 32, 128
+size = 128, 128
 image.thumbnail(size, Image.ANTIALIAS)
 image.load()
 for n in range(32, -image.size[0], -1):
