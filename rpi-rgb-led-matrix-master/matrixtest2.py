@@ -47,11 +47,11 @@ for n in range(32, -image.size[0], -1): # Scroll R to L
 # the right edge, so erasing after the scrolled image isn't necessary.
 matrix.Clear()
 image = Image.open("graglas.tiff")
-size = 128, 64
+size = 64, 64
 image.thumbnail(size, Image.ANTIALIAS)
 image.load()
-for n in range(32, -image.size[0], -1):
-	matrix.SetImage(image.im.id, n, 1)
-	time.sleep(0.025)
+# for n in range(32, -image.size[0], -1):
+matrix.SetImage(image.im.id, 0, 1)
+time.sleep(10)
 
 matrix.Clear()
