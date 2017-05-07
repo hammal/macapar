@@ -31,7 +31,7 @@ draw.rectangle((0, 0, 31, 16), fill=0, outline=1)
 for n in range(-32,65): # Start off top-left, move off bottom-right
 	matrix.Clear()
 	# IMPORTANT: *MUST* pass image ID, *NOT* image object!
-	matrix.SetImage(image.im.id, n, n)
+	matrix.SetImage(image.im.id, 2*n, n)
 	time.sleep(0.05)
 
 # 8-bit paletted GIF scrolling example
