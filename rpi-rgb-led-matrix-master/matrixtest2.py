@@ -21,7 +21,7 @@ from rgbmatrix import Adafruit_RGBmatrix
 matrix = Adafruit_RGBmatrix(32, 4)
 
 # Bitmap example w/graphics prims
-image = Image.new("1", (32, 32)) # Can be larger than matrix if wanted!!
+image = Image.new("1", (32, 128)) # Can be larger than matrix if wanted!!
 draw  = ImageDraw.Draw(image)    # Declare Draw instance before prims
 # Draw some shapes into image (no immediate effect on matrix)...
 draw.rectangle((0, 0, 31, 31), fill=0, outline=1)
