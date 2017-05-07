@@ -1,1 +1,1 @@
-print('Hej det är Stina')
+print('Hej det ar Stina')
