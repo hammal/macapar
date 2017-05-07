@@ -46,7 +46,7 @@ for n in range(32, -image.size[0], -1): # Scroll R to L
 # The adafruit.png image has a couple columns of black pixels at
 # the right edge, so erasing after the scrolled image isn't necessary.
 matrix.Clear()
-image = Image.open("20160103_195516.png")
+image = Image.open("hamp.png")
 image.load()
 for n in range(32, -image.size[0], -1):
 	matrix.SetImage(image.im.id, n, 1)
