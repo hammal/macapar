@@ -33,8 +33,8 @@ draw.line((0, 31, 31, 0), fill=1)
 # 	# IMPORTANT: *MUST* pass image ID, *NOT* image object!
 # 	matrix.SetImage(image.im.id, n, 0)
 # 	time.sleep(0.05)
-	matrix.SetImage(image.im.id, 0, 0)
-	time.sleep(2)
+matrix.SetImage(image.im.id, 0, 0)
+time.sleep(2)
 # # 8-bit paletted GIF scrolling example
 # image = Image.open("cloud.gif")
 # image.load()          # Must do this before SetImage() calls
