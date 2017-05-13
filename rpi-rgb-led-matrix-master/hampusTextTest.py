@@ -2,7 +2,7 @@
 #See the Wiki for more details: https://github.com/ManiacalLabs/BiblioPixel/wiki
 from bibliopixel import *
 import bibliopixel.colors as colors
-import ada-matrix.DriverAdaMatrix as DriverAdaMatrix
+from adamatrix import DriverAdaMatrix
 
 driver = DriverAdaMatrix(rows=32, chain=1)
 driver.SetPWMBits(6) #decrease bit-depth for better performance
@@ -10,7 +10,7 @@ driver.SetPWMBits(6) #decrease bit-depth for better performance
 led = LEDMatrix(driver, 32, 32, serpentine=False)
 
 #Must have code downloaded from GitHub for matrix_animations
-from matrix_animations import *
+#from matrix_animations import *
 import bibliopixel.log as log
 log.setLogLevel(log.DEBUG)
 
