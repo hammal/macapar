@@ -11,7 +11,7 @@ from rgbmatrix import Adafruit_RGBmatrix
 # Rows and chain length are both required parameters:
 matrix = Adafruit_RGBmatrix(32, 2)
 
-matrix.print("Hampus Malmberg"
+matrix.print("Hampus Malmberg")
 time.sleep(5)
 
 # # Flash screen red, green, blue (packed color values)
