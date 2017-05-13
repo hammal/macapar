@@ -1,9 +1,8 @@
 #Usage is as follows:
 #See the Wiki for more details: https://github.com/ManiacalLabs/BiblioPixel/wiki
-
 from bibliopixel import *
 import bibliopixel.colors as colors
-from ada-matrix import DriverAdaMatrix
+import ada-matrix.DriverAdaMatrix as DriverAdaMatrix
 
 driver = DriverAdaMatrix(rows=32, chain=1)
 driver.SetPWMBits(6) #decrease bit-depth for better performance
