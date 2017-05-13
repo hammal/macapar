@@ -36,7 +36,7 @@ draw.line((0, 0, 31, 16), fill=1)
 matrix.SetImage(image.im.id, 0, 0)
 time.sleep(5)
 # # 8-bit paletted GIF scrolling example
-image = Image.open("graglas.png")
+image = Image.open("graglas.tiff")
 size = 32, 32
 image.thumbnail(size, Image.ANTIALIAS)
 image.load()          # Must do this before SetImage() calls
