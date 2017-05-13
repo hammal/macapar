@@ -11,8 +11,10 @@ from rgbmatrix import Adafruit_RGBmatrix
 # Rows and chain length are both required parameters:
 matrix = Adafruit_RGBmatrix(32, 2)
 
+matrix.setTextColor(matrix.Color333(7,0,0));
 matrix.print("Hampus Malmberg")
 time.sleep(5)
+matrix.Clear()
 
 # # Flash screen red, green, blue (packed color values)
 # matrix.Fill(0xFF0000)
