@@ -36,8 +36,8 @@ matrix = Adafruit_RGBmatrix(32, 4)
 # matrix.SetImage(image.im.id, 0, 0)
 # time.sleep(5)
 # 8-bit paletted GIF scrolling example
-image = Image.open("graglas.tiff")
-size = 32, 32
+image = Image.open("glas2.tif")
+size = 40,40
 image.thumbnail(size, Image.ANTIALIAS)
 image.load()          # Must do this before SetImage() calls
 # matrix.Fill(0x6F85FF) # Fill screen to sky color
