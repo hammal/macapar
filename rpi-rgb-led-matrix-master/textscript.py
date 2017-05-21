@@ -4,5 +4,5 @@ text = ["En elefant balanserade", "Pa en liten spindeltrad", "Det tyckte han var
 while text:
     sys.stdout.write(text.pop(0))
     # sys.stdout.flush()
-    print('')
+    print("")
     time.sleep(5)
