@@ -20,22 +20,7 @@ from rgbmatrix import Adafruit_RGBmatrix
 # Rows and chain length are both required parameters:
 matrix = Adafruit_RGBmatrix(32, 4)
 
-# Bitmap example w/graphics prims
-# image = Image.new("1", (32, 32)) # Can be larger than matrix if wanted!!
-# draw  = ImageDraw.Draw(image)    # Declare Draw instance before prims
-# # Draw some shapes into image (no immediate effect on matrix)...
-# draw.rectangle((0, 0, 31, 16), fill=1, outline=1)
-# draw.line((0, 0, 31, 16), fill=1)
-# # draw.line((0, 31, 31, 0), fill=1)
-# # Then scroll image across matrix...
-# # for n in range(-32,97): # Start off top-left, move off bottom-right
-# # 	matrix.Clear()
-# # 	# IMPORTANT: *MUST* pass image ID, *NOT* image object!
-# # 	matrix.SetImage(image.im.id, n, 0)
-# # 	time.sleep(0.05)
-# matrix.SetImage(image.im.id, 0, 0)
-# time.sleep(5)
-# 8-bit paletted GIF scrolling example
+
 image = Image.open("glas2.tif")
 size = 40,40
 image.thumbnail(size, Image.ANTIALIAS)

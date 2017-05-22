@@ -13,9 +13,8 @@ font=ImageFont.truetype("DejaVuSerif.ttf",size=10)
 
 img=Image.new('RGB',(128,32))
 d=ImageDraw.Draw(img)
-text="Hellöö"
-print(text)
-d.text((1,0),"Hellöö",fill=(200,200,0),font=font)
+text="Hellööå"
+d.text((1,0),text,fill=(200,200,0),font=font)
 
 for n in range(128, -img.size[0], -1): # Scroll R to L
 	matrix.SetImage(img.im.id, n, 0)

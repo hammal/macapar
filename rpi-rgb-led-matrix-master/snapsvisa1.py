@@ -13,4 +13,4 @@ while text:
 
 # //: Fåm, fåm, fåm, fåm, fåm vi lite opp i kosa :// 
 # Jen gang och jen gang och jen gang och jen gang te 
-# Jen gang och jen gang och jen gang och jen gang te
+# Jen gang och jen gang och jen gang och jen gang tes
