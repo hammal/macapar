@@ -46,7 +46,11 @@ for n in range(128, -image.size[0], -1): # Scroll R to L
 	time.sleep(0.025)
 matrix.SetImage(image.im.id, 0, 0)
 time.sleep(5)
+
+
+
 print("hej")
+
 # # 24-bit RGB scrolling example.
 # # The adafruit.png image has a couple columns of black pixels at
 # # the right edge, so erasing after the scrolled image isn't necessary.
