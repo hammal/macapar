@@ -1,10 +1,12 @@
 var express = require('express');
 var router = express.Router();
 var exec = require('child_process').exec;
+var locks = require('locks');
 
+var mutex = locks.createMutex();
 
-var scriptPath = '/scripts'
-var preExecution = "cd ../rpi-rgb-led-matrix-master;"
+var scriptPath = '/scripts';
+var preExecution = "cd ../rpi-rgb-led-matrix-master;";
 
 var snappsvisa = {
 	name:"Snapsvisa",
@@ -72,15 +74,21 @@ router.get('/', function(req, res, next) {
 router.get('/scripts/:name', function(req, res) {
   for(index in functions) {
     if( functions[index].api == req.params.name){
-			console.log(`Running ${functions[index].name} executable ${functions[index].executable}`)
-      exec(`${functions[index].executable}`, function callback(error, stdout, stderr){
-        if (error) {
+			mutex.lock(function () {
+    		console.log('We got the lock!');
+    		// do stuff
+				console.log(`Running ${functions[index].name} executable ${functions[index].executable}`)
+      	exec(`${functions[index].executable}`, function callback(error, stdout, stderr){
+        	if (error) {
             console.error(`exec error: ${error}`);
             return;
           }
           console.log(`stdout: ${stdout}`);
           // console.log(`stderr: ${stderr}`);
-      });
+      	});
+				mutex.unlock();
+			});
+
       res.redirect('/')
     }
   }
