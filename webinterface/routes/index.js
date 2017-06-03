@@ -40,7 +40,7 @@ var intro = {
 var Leif = {
 	name:"Leif",
   executionName:"Leffe",
-	executable : "sudo python ../rpi-rgb-led-matrix-master/intro_Leif.py",
+	executable : "cd ../rpi-rgb-led-matrix-master; sudo python intro_Leif.py",
 	description : "Detta är leifs knapp.",
 	api : 'leif'
 };
