@@ -3,10 +3,23 @@ import pickle
 
 emojipaths = []
 
-for root, dirs, files in os.walk("./emojis/", topdown=False):
+for root, dirs, files in os.walk("./emojis/emotions/", topdown=False):
     for name in files:
-        emojipaths.append(os.path.abspath(os.path.join("./emojis/",name)))
+    	if name[-4:] == ".png" and name[0] != ".":
+        	emojipaths.append(os.path.abspath(os.path.join("./emojis/emotions/",name)))
 
 # save as pickle
-with open("emojilist.txt", "wb") as fp:   #Pickling
+with open("emojiemotionlist.txt", "wb") as fp:   #Pickling
+    pickle.dump(emojipaths, fp)
+
+
+emojipaths = []
+
+for root, dirs, files in os.walk("./emojis/aon/", topdown=False):
+    for name in files:
+    	if name[-4:] == ".png" and name[0] != ".":
+        	emojipaths.append(os.path.abspath(os.path.join("./emojis/aon/",name)))
+
+# save as pickle
+with open("emojiaonlist.txt", "wb") as fp:   #Pickling
     pickle.dump(emojipaths, fp)
