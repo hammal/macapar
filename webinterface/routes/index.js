@@ -40,6 +40,14 @@ var intro = {
 	api : 'intro'
 };
 
+var antikrundan = {
+	name:"Antikrundan",
+	executionName: "Kör",
+	executable: "sudo python intro_sas.py",
+	description: "Antikrundan scriptet.",
+	api: "antikrundan"
+}
+
 var Leif = {
 	name:"Leif",
   executionName:"Leffe",
@@ -87,6 +95,7 @@ var functions = [
   toast,
   intro,
   Leif,
+	antikrundan,
   GunillaAnders,
 	TextArgument,
 	restart,
