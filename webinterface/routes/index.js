@@ -9,7 +9,7 @@ var preExecution = "cd ../rpi-rgb-led-matrix-master;"
 var snappsvisa = {
 	name:"Snapsvisa",
   executionName:"Snapsa!",
-	executable : `${preExecution} sudo python snapsvisa1.py`,
+	executable : `${preExecution} sudo python snappsvisa1.py`,
 	description : "Detta är snappsvisan.",
 	api : 'snaps'
 };
