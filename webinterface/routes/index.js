@@ -78,7 +78,9 @@ var functions = [
   toast,
   intro,
   Leif,
-  GunillaAnders
+  GunillaAnders,
+	restart,
+	shutdown
 ];
 
 
