@@ -56,6 +56,22 @@ var GunillaAnders = {
 	api : 'gunillaochanders'
 };
 
+var restart = {
+	name:"Restart",
+	executionName:"Now",
+	executable: "sudo reboot now",
+	description: "This button restarts the RPi for the display",
+	api: "restart"
+}
+
+var shutdown = {
+	name:"Shutdown",
+	executionName:"Now",
+	executable: "sudo shutdown -h now",
+	description: "This button shutsdown the RPi for the display safely",
+	api: "shutdown"
+}
+
 var functions = [
 	snappsvisa,
   checkStatus,
