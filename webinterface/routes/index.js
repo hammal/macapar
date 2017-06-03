@@ -74,7 +74,7 @@ router.get('/', function(req, res, next) {
 router.get('/scripts/:name', function(req, res) {
   for(index in functions) {
     if( functions[index].api == req.params.name){
-			mutex.timedLock(30000, function (error) {
+			mutex.timedLock(5000, function (error) {
     		if (error) {
         	console.log('Could not get the lock within 5 seconds, so gave up');
     		} else {
