@@ -4,11 +4,12 @@ var exec = require('child_process').exec;
 
 
 var scriptPath = '/scripts'
+var preExecution = "cd ../rpi-rgb-led-matrix-master;"
 
 var snappsvisa = {
 	name:"Snapsvisa",
   executionName:"Snapsa!",
-	executable : 'echo "snapsvisa"',
+	executable : `${preExecution} sudo python snapsvisa1.py`,
 	description : "Detta är snappsvisan.",
 	api : 'snaps'
 };
@@ -16,7 +17,7 @@ var snappsvisa = {
 var checkStatus = {
 	name:"Status Check",
   executionName:"check it out",
-	executable : 'echo "Status Check"',
+	executable : `${preExecution} sudo python checkstatus.py`,
 	description : "System status check.",
 	api : 'status'
 };
@@ -24,7 +25,7 @@ var checkStatus = {
 var toast = {
 	name:"Toast",
   executionName:"fire in the hole",
-	executable : 'echo "Toast pa g"',
+	executable : `${preExecution} sudo python toast.py`,
 	description : "Toasting what it is all about.",
 	api : 'toast'
 };
@@ -40,7 +41,7 @@ var intro = {
 var Leif = {
 	name:"Leif",
   executionName:"Leffe",
-	executable : "sudo python ../rpi-rgb-led-matrix-master/intro_Leif.py",
+	executable : `${preExecution} sudo python intro_Leif.py`,
 	description : "Detta är leifs knapp.",
 	api : 'leif'
 };
@@ -48,7 +49,7 @@ var Leif = {
 var GunillaAnders = {
 	name:"Gunilla och Anders",
   executionName:"Öppna Ridån",
-	executable : 'echo "Gunilla och Anders"',
+	executable : `${preExecution} sudo python intro_AoG2.py`,
 	description : "Gunilla och Anders intro.",
 	api : 'gunillaochanders'
 };
