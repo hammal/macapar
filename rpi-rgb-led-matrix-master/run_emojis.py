@@ -7,14 +7,28 @@ import ImageFont
 from rgbmatrix import Adafruit_RGBmatrix
 
 import ImageOps
-matrix = Adafruit_RGBmatrix(32, 4)
-im = Image.new("RGB", (128, 32))
+import pickle
 
-emoji = Image.open("emojis/1f3a8.png")
+with open("emojiemotionlist.txt", "rb") as fp:   # Unpickling
+    emojilist = pickle.load(fp)
+
+print(len(emojilist))
+# print(emojilist[0:10])
+matrix = Adafruit_RGBmatrix(32, 4)
+num=len(emojilist)
+rep=4
+im = Image.new("RGB", (32*num*rep, 32))
 size = 32,32
-emoji.thumbnail(size, Image.ANTIALIAS)
-emoji.load()          # Must do this before SetImage() calls
-for m in range(1,6,1):
-	for n in range(128, -emoji.size[0], -1): # Scroll R to L
-		matrix.SetImage(emoji.im.id, n, 0)
-		time.sleep(0.025)
+
+for n in range(0,rep*num,1):
+	print(emojilist[n%num])
+	emoji = Image.open(emojilist[n%num])
+	emoji.thumbnail(size, Image.ANTIALIAS)
+	emoji.load()          # Must do this before SetImage() calls	
+	im.paste(emoji,(n*32+1,0))
+
+print(im.size[0])
+for n in range(128, -im.size[0], -1): # Scroll R to L
+
+	matrix.SetImage(im.im.id, n, 0)
+	time.sleep(0.002)
