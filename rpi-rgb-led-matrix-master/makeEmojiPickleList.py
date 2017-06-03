@@ -1,7 +1,7 @@
 import os
 import pickle
 
-emojipaths = {}
+emojipaths = []
 
 for root, dirs, files in os.walk("./emojis/emotions/", topdown=False):
     for name in files:
