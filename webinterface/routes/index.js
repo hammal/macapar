@@ -68,7 +68,7 @@ var shutdown = {
 	name:"Shutdown",
 	executionName:"Now",
 	executable: "sudo shutdown -h now",
-	description: "This button shutsdown the RPi for the display safely",
+	description: "This button turns the RPi off safely",
 	api: "shutdown"
 }
 
