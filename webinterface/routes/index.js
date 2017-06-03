@@ -74,21 +74,24 @@ router.get('/', function(req, res, next) {
 router.get('/scripts/:name', function(req, res) {
   for(index in functions) {
     if( functions[index].api == req.params.name){
-			mutex.lock(function () {
-    		console.log('We got the lock!');
-    		// do stuff
-				console.log(`Running ${functions[index].name} executable ${functions[index].executable}`)
-      	exec(`${functions[index].executable}`, function callback(error, stdout, stderr){
-        	if (error) {
-            console.error(`exec error: ${error}`);
-            return;
-          }
-          console.log(`stdout: ${stdout}`);
-          // console.log(`stderr: ${stderr}`);
-					mutex.unlock();
-      	});
+			mutex.timedLock(30000, function (error) {
+    		if (error) {
+        	console.log('Could not get the lock within 5 seconds, so gave up');
+    		} else {
+    			console.log('We got the lock!');
+    			// do stuff
+					console.log(`Running ${functions[index].name} executable ${functions[index].executable}`)
+      		exec(`${functions[index].executable}`, function callback(error, stdout, stderr){
+        		if (error) {
+            	console.error(`exec error: ${error}`);
+            	return;
+          	}
+          	console.log(`stdout: ${stdout}`);
+          	// console.log(`stderr: ${stderr}`);
+						mutex.unlock();
+      		});
+				};
 			});
-
       res.redirect('/')
     }
   }
