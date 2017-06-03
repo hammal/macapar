@@ -85,8 +85,8 @@ router.get('/scripts/:name', function(req, res) {
           }
           console.log(`stdout: ${stdout}`);
           // console.log(`stderr: ${stderr}`);
+					mutex.unlock();
       	});
-				mutex.unlock();
 			});
 
       res.redirect('/')
