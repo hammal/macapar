@@ -8,7 +8,7 @@ var scriptPath = '/scripts'
 var snappsvisa = {
 	name:"Snapsvisa",
   executionName:"Snapsa!",
-	pythonScript : "abs.py",
+	executable : 'echo "snapsvisa"',
 	description : "Detta är snappsvisan.",
 	api : 'snaps'
 };
@@ -16,7 +16,7 @@ var snappsvisa = {
 var checkStatus = {
 	name:"Status Check",
   executionName:"check it out",
-	pythonScript : "helloworld.py",
+	executable : 'echo "Status Check"',
 	description : "System status check.",
 	api : 'status'
 };
@@ -24,7 +24,7 @@ var checkStatus = {
 var toast = {
 	name:"Toast",
   executionName:"fire in the hole",
-	pythonScript : "helloworld.py",
+	executable : 'echo "Toast pa g"',
 	description : "Toasting what it is all about.",
 	api : 'toast'
 };
@@ -32,7 +32,7 @@ var toast = {
 var intro = {
 	name:"Intro",
   executionName:"Start",
-	pythonScript : "helloworld.py",
+	executable : 'echo "Intro Intro Intro"',
 	description : "This is the introduction script",
 	api : 'intro'
 };
@@ -40,7 +40,7 @@ var intro = {
 var Leif = {
 	name:"Leif",
   executionName:"Leffe",
-	pythonScript : "helloworld.py",
+	executable : "../rpi-rgb-led-matrix-master/intro_Leif.sh",
 	description : "Detta är leifs knapp.",
 	api : 'leif'
 };
@@ -48,7 +48,7 @@ var Leif = {
 var GunillaAnders = {
 	name:"Gunilla och Anders",
   executionName:"Öppna Ridån",
-	pythonScript : "helloworld.py",
+	executable : 'echo "Gunilla och Anders"',
 	description : "Gunilla och Anders intro.",
 	api : 'gunillaochanders'
 };
@@ -71,7 +71,8 @@ router.get('/', function(req, res, next) {
 router.get('/scripts/:name', function(req, res) {
   for(index in functions) {
     if( functions[index].api == req.params.name){
-      exec(`echo ${functions[index].pythonScript}`, function callback(error, stdout, stderr){
+			console.log(`Running ${functions[index].name} executable ${functions[index].executable}`)
+      exec(`${functions[index].executable}`, function callback(error, stdout, stderr){
         if (error) {
             console.error(`exec error: ${error}`);
             return;
