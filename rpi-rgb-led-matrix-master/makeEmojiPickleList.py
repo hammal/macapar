@@ -23,3 +23,15 @@ for root, dirs, files in os.walk("./emojis/aon/", topdown=False):
 # save as pickle
 with open("emojiaonlist.txt", "wb") as fp:   #Pickling
     pickle.dump(emojipaths, fp)
+
+
+emojipaths = []
+
+for root, dirs, files in os.walk("./emojis/antik/", topdown=False):
+    for name in files:
+    	if name[-4:] == ".png" and name[0] != ".":
+        	emojipaths.append(os.path.abspath(os.path.join("./emojis/antik/",name)))
+
+# save as pickle
+with open("antiklist.txt", "wb") as fp:   #Pickling
+    pickle.dump(emojipaths, fp)
