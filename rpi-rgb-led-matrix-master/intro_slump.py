@@ -60,7 +60,6 @@ for n in range(0,len(pos),1):
 matrix.SetImage(im.im.id,0,pos[-1])
 time.sleep(1)
 print(font.getsize(text[0]))
-stopsize
 for n in range(18,40):
 	font=ImageFont.truetype("DejaVuSerif.ttf",size=n)
 	text=names[-2]
