@@ -10,7 +10,8 @@ from rgbmatrix import Adafruit_RGBmatrix
 import ImageOps
 import pickle
 import random
-import math 
+import math
+import sys
 
 
 import namesList
@@ -18,7 +19,7 @@ names=namesList.names
 random.shuffle(names)
 print(len(names))
 
-talare="Charlotta potta"
+talare=str(sys.argv[1])
 names[-2]=talare
 # print(emojilist[0:10])
 matrix = Adafruit_RGBmatrix(32, 4)
