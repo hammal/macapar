@@ -73,6 +73,15 @@ var TextArgument = {
 	argument: "Put text here"
 };
 
+var Slumpen = {
+	name: "Slumpgenerator",
+	executionName: "Slumpa",
+	executable: "sudo python intro_slump.py",
+	description: "Slumpgenerera följande namn.",
+	api: "slumpGenerator",
+	argument: "Namn"
+}
+
 var restart = {
 	name:"Restart",
 	executionName:"Now",

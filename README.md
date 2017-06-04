@@ -11,3 +11,5 @@ Följande länkar är intressanta
 8) [Adafruit's video for rpi hat](https://learn.adafruit.com/adafruit-diy-led-video-wall)
 9) [How to turn npm on on reboot](http://www.linuxcircle.com/2013/12/30/run-nodejs-server-on-boot-with-forever-on-raspberry-pi/)
 10)[WifiHotspot out off your Raspberry pi](http://elinux.org/RPI-Wireless-Hotspot)
+11)[This is the one I followed for wifi](https://medium.com/@edoardo849/turn-a-raspberrypi-3-into-a-wifi-router-hotspot-41b03500080e)
+12)[Secondly I used this one](..)
