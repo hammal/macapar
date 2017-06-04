@@ -1,0 +1,711 @@
+{
+	"_id" : ObjectId("58434ca52ae171000fcb3a52"),
+	"name" : "Stina wargert ",
+	"wedding" : false,
+	"message" : "Tyvärr kan jag inte komma ",
+	"email" : "",
+	"updated_at" : ISODate("2016-12-03T22:52:21.287Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58434d022ae171000fcb3a53"),
+	"name" : "Stina wargert ",
+	"wedding" : false,
+	"message" : "Skit också jag kan inte ",
+	"email" : "",
+	"updated_at" : ISODate("2016-12-03T22:53:54.450Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58434d552ae171000fcb3a54"),
+	"name" : "Stina wargert ",
+	"wedding" : false,
+	"message" : "Skit också jag kan inte ",
+	"email" : "swargert@gmail.com",
+	"updated_at" : ISODate("2016-12-03T22:55:17.925Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5843510f157d48000f3197b2"),
+	"name" : "Hampus Malmberg",
+	"wedding" : true,
+	"message" : "Jag kommer!",
+	"email" : "hampa@me.com",
+	"updated_at" : ISODate("2016-12-03T23:11:11.013Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584421af157d48000f3197b3"),
+	"name" : "Orvar",
+	"wedding" : true,
+	"message" : "O funkar det??",
+	"email" : "niklas.wargert@gmail.com",
+	"updated_at" : ISODate("2016-12-04T14:01:19.393Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5845bf5df0e9e9000f336e02"),
+	"name" : "Stina Wargert ",
+	"wedding" : true,
+	"message" : "Jag kommer på bröllopet och på upptakten och dagarna dessförinnan! OBS: DETTA ÄR MIN RIKTIGA OSNING!!!!! GLÖM ALLT JAG SAGT OM ATT JAG INTE KOMMER, så glöm inte att räkna med mig. Hampus osar för sig själv. Jag har inga allergier. ",
+	"email" : "swargert@gmail.com",
+	"updated_at" : ISODate("2016-12-05T19:26:21.422Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5846e7ee3d45ea000fa7f232"),
+	"name" : "Jannie westerlund och Jonas Meyer",
+	"wedding" : true,
+	"message" : "vi kommer självklart på upptakten!!! hipphipphurraförer!!",
+	"email" : "Jannie.m.westerlund@gmail.com",
+	"updated_at" : ISODate("2016-12-06T16:31:42.198Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58470b523d45ea000fa7f233"),
+	"name" : "Anna Wallin",
+	"wedding" : true,
+	"message" : "Anna Wallin och Christian Wallin kommer på vigseln och Anna Wallin kommer mer än gärna till toppstugan också 😀. Ingen specialkost.",
+	"email" : "wallinanna84@hotmail.com",
+	"updated_at" : ISODate("2016-12-06T19:02:42.581Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58471d0831fef6000fc9ff85"),
+	"name" : "Gunnar Andersson Wargert",
+	"wedding" : true,
+	"message" : "",
+	"email" : "Gunnar.andersson.wargert@gmail.com",
+	"updated_at" : ISODate("2016-12-06T20:18:16.160Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58471d2831fef6000fc9ff86"),
+	"name" : "iris lee Thompson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "iris.lee.thompson@gmail.com",
+	"updated_at" : ISODate("2016-12-06T20:18:48.548Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58485f8c31fef6000fc9ff87"),
+	"name" : "Sara, Mayo, Lucia & Pyret",
+	"wedding" : true,
+	"message" : "Kommer på allt!",
+	"email" : "saramarten4@gmail.com",
+	"updated_at" : ISODate("2016-12-07T19:14:20.426Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5848863531fef6000fc9ff88"),
+	"name" : "Lisa o Göran Arnelo",
+	"wedding" : true,
+	"message" : "",
+	"email" : "eppe56@hotmail.com",
+	"updated_at" : ISODate("2016-12-07T21:59:17.774Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5848880b31fef6000fc9ff89"),
+	"name" : "Lisa o Göran Arnelo. Kommer även på upptakten i Toppstugan. Nu har vi osat två ggr ;)",
+	"wedding" : true,
+	"message" : "",
+	"email" : "eppe56@hotmail.com",
+	"updated_at" : ISODate("2016-12-07T22:07:07.534Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5848f96331fef6000fc9ff8a"),
+	"name" : "Åsa Martén",
+	"wedding" : true,
+	"message" : "Hela familjen ekblad martén kommer på upptakt o rubbet. Sally får väl hitta nån sorts barnvakt. ",
+	"email" : "asa.marten@gmail.com",
+	"updated_at" : ISODate("2016-12-08T06:10:43.436Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849a4bf31fef6000fc9ff8b"),
+	"name" : "Therese Olsson",
+	"wedding" : true,
+	"message" : "Jag och Simon Gromer kommer med på allt ❤️!!\r\nKno äter inte gris eller ko ....eller annat djur som bott i bur/bås. 😄🐷🍾\r\n\r\n",
+	"email" : "terres83@gmail.com",
+	"updated_at" : ISODate("2016-12-08T18:21:51.726Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849b69f31fef6000fc9ff8c"),
+	"name" : "Camilla Wargert",
+	"wedding" : true,
+	"message" : "",
+	"email" : "camilla.wargert@spsm.se",
+	"updated_at" : ISODate("2016-12-08T19:38:07.041Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849b6de31fef6000fc9ff8d"),
+	"name" : "Camilla Wargert",
+	"wedding" : true,
+	"message" : "Jag är med på allt!",
+	"email" : "camilla.wargert@spsm.se",
+	"updated_at" : ISODate("2016-12-08T19:39:10.544Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849c68031fef6000fc9ff8e"),
+	"name" : "Nils",
+	"wedding" : true,
+	"message" : "Nils & Felicia\r\nVi räknar med att komma på upptakt",
+	"email" : "nils.mag@gmail.com",
+	"updated_at" : ISODate("2016-12-08T20:45:52.992Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849d79231fef6000fc9ff8f"),
+	"name" : "Leif Martén     Susanne Fredling (glutenfri kost)         Kommer på UPPTAKTEN",
+	"wedding" : true,
+	"message" : "",
+	"email" : "leifmarten@gmail.com",
+	"updated_at" : ISODate("2016-12-08T21:58:42.674Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5849e6ac31fef6000fc9ff90"),
+	"name" : "Claes och Bittan",
+	"wedding" : true,
+	"message" : "",
+	"email" : "claes.meyer@ltdalarna.se",
+	"updated_at" : ISODate("2016-12-08T23:03:08.243Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584af38731fef6000fc9ff91"),
+	"name" : "Marianne Nilsson",
+	"wedding" : true,
+	"message" : "Osar Bengt också....och vi kommer gärna till Toppstugan! ",
+	"email" : "marianne.bi.nilsson@gmail.com",
+	"updated_at" : ISODate("2016-12-09T18:10:15.370Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584b13e131fef6000fc9ff92"),
+	"name" : "Anders Grudin",
+	"wedding" : true,
+	"message" : "Anders Grudin\r\nDan McLellan",
+	"email" : "anders.grudin@gmail.com",
+	"updated_at" : ISODate("2016-12-09T20:28:17.864Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584d37ad31fef6000fc9ff93"),
+	"name" : "sune åkesson charlotte wargert",
+	"wedding" : true,
+	"message" : "farmor och farfar\r\n",
+	"email" : "sune.akesson@gmail.com",
+	"updated_at" : ISODate("2016-12-11T11:25:33.371Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584e354e31fef6000fc9ff94"),
+	"name" : "Max Altez",
+	"wedding" : true,
+	"message" : "Emma Mattsson, flickvännen, kommer oxå.",
+	"email" : "altez.power@gmail.com",
+	"updated_at" : ISODate("2016-12-12T05:27:42.432Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("584f0e7031fef6000fc9ff95"),
+	"name" : "Emilia Ilke",
+	"wedding" : true,
+	"message" : "Emilia Ilke+ Fredrik Karlsson samt bebis ;) Båda är vegetarianer som inte äter fisk/skaldjur. ",
+	"email" : "pollans@hotmail.com",
+	"updated_at" : ISODate("2016-12-12T20:54:08.343Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58506d1231fef6000fc9ff96"),
+	"name" : "Max Altez",
+	"wedding" : true,
+	"message" : "Emma Mattsson, flickvännen, kommer oxå.",
+	"email" : "altez.power@gmail.com",
+	"updated_at" : ISODate("2016-12-13T21:50:10.540Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("585158f931fef6000fc9ff97"),
+	"name" : "Nettan Kock",
+	"wedding" : true,
+	"message" : "Jag äter allt och toppstuga låter ju ball!",
+	"email" : "nettan.kock@gmail.com",
+	"updated_at" : ISODate("2016-12-14T14:36:41.089Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5851749c31fef6000fc9ff98"),
+	"name" : "Clara",
+	"wedding" : true,
+	"message" : "Clara och Jonathan",
+	"email" : "claragronowitz@hotmail.com",
+	"updated_at" : ISODate("2016-12-14T16:34:36.530Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58559e9a31fef6000fc9ff99"),
+	"name" : "Elin och Simon -fisk och skladjur",
+	"wedding" : true,
+	"message" : "",
+	"email" : "elinfrida.mattsson@gmail.com",
+	"updated_at" : ISODate("2016-12-17T20:22:50.907Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5859091531fef6000fc9ff9a"),
+	"name" : "Camilla & Mikael Berg",
+	"wedding" : true,
+	"message" : "Osäker på upptakten, återkommer om det blir aktuellt. Ingen specialkost. \r\n//Kutzi + äkta hälft",
+	"email" : "camilla_alenstal@hotmail.com",
+	"updated_at" : ISODate("2016-12-20T10:33:57.556Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5859b04c31fef6000fc9ff9b"),
+	"name" : "Siddharth och Charu",
+	"wedding" : true,
+	"message" : "Osar för Sidd och Charu som äter vegetariskt samt ägg och firre. Vi kommer med glädje till Toppstugan och till hela rasket. Wow, så superkul!",
+	"email" : "thomas@mejlamej.se",
+	"updated_at" : ISODate("2016-12-20T22:27:24.983Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("585d179031fef6000fc9ff9c"),
+	"name" : "martin bölander",
+	"wedding" : true,
+	"message" : "",
+	"email" : "bolander.martin@gmail.com",
+	"updated_at" : ISODate("2016-12-23T12:24:48.259Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5867aaa231fef6000fc9ff9d"),
+	"name" : "Gisward",
+	"wedding" : true,
+	"message" : "Gisela Engelbert\r\nEdward Dahllöf\r\n",
+	"email" : "edward.dahllof@gmail.com",
+	"updated_at" : ISODate("2016-12-31T12:54:58.439Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5870f7a031fef6000fc9ff9e"),
+	"name" : "Ida Hjalmarsson",
+	"wedding" : true,
+	"message" : "Leif Leh",
+	"email" : "idahjalmarsson91@hotmail.com",
+	"updated_at" : ISODate("2017-01-07T14:13:52.869Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("587283ea31fef6000fc9ff9f"),
+	"name" : "Tove och Levent",
+	"wedding" : true,
+	"message" : "Levent äter inte fläsk, Vi vet i nuläget inte om vi kommer till toppstugan eller inte!",
+	"email" : "tovea87@gmail.com",
+	"updated_at" : ISODate("2017-01-08T18:24:42.408Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5876523031fef6000fc9ffa0"),
+	"name" : "Maria Hjalmarsson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "maria.hjalmarsson@live.se",
+	"updated_at" : ISODate("2017-01-11T15:41:36.656Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("5876528231fef6000fc9ffa1"),
+	"name" : "Albin Hjalmarsson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "albin_hj@live.com",
+	"updated_at" : ISODate("2017-01-11T15:42:58.456Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58768c8c31fef6000fc9ffa2"),
+	"name" : "Lina Åkesson ",
+	"wedding" : true,
+	"message" : "Olof Eriksson och Lina Åkesson tackar återigen för inbjudan och självklart kommer vi båda två! Vi planerar för en helvecka på sollerön så vi kommer även på upptakten och då blir vi hela familjen. Så roligt det ska bli!",
+	"email" : "akesson.lina@gmail.com",
+	"updated_at" : ISODate("2017-01-11T19:50:36.088Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("587fcb2531fef6000fc9ffa3"),
+	"name" : "Åsa och Lars Edler",
+	"wedding" : true,
+	"message" : "Vi kommer till Toppstugan, Tack! ",
+	"email" : "lars.edler@telia.com",
+	"updated_at" : ISODate("2017-01-18T20:08:05.194Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("588e5f8731fef6000fc9ffa4"),
+	"name" : "Magnus och Disa Löfvendahl + ev Lill-Albin (om det känns för tidigt med barnvakt)",
+	"wedding" : true,
+	"message" : "Vi äter inte däggdjur eller fågel eller rödlistat, allt annat går bra. ",
+	"email" : "magnusdymo@gmail.com",
+	"updated_at" : ISODate("2017-01-29T21:32:55.672Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58905e9631fef6000fc9ffa5"),
+	"name" : "Camilla Wargert",
+	"wedding" : true,
+	"message" : "Jag kommer med till Gesundabergets topp!",
+	"email" : "53camilla.wargert@gmail.com",
+	"updated_at" : ISODate("2017-01-31T09:53:26.819Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("589acfb631fef6000fc9ffa6"),
+	"name" : "Martin Bölander",
+	"wedding" : true,
+	"message" : "Hej! Kärleksparet. Jag vill osa även för Josefin Gjälby :-)",
+	"email" : "bolander.martin@gmail.com",
+	"updated_at" : ISODate("2017-02-08T07:58:46.635Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58a0346031fef6000fc9ffa7"),
+	"name" : "Ellen Wargert, Daniel Nilsson. Vi kommer på upptakten ",
+	"wedding" : true,
+	"message" : "",
+	"email" : "ellen_w86@hotmail.com",
+	"updated_at" : ISODate("2017-02-12T10:09:36.792Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58a4b4da31fef6000fc9ffa8"),
+	"name" : "Anton hjalmarsson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "lf-anton@live.se",
+	"updated_at" : ISODate("2017-02-15T20:06:50.124Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58a4b4fd31fef6000fc9ffa9"),
+	"name" : "Olivia Wåxberg",
+	"wedding" : true,
+	"message" : "",
+	"email" : "olivia.woxberg@gmail.com",
+	"updated_at" : ISODate("2017-02-15T20:07:25.457Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58a61bd531fef6000fc9ffaa"),
+	"name" : "David Wargert",
+	"wedding" : true,
+	"message" : "Hej!\r\nJag kommer naturligtvis på bröllopet. Jag tänkte även vara med dagen innan uppe på Gesundaberget, kanske varvat med lite downhill-cykling :)\r\n/David ",
+	"email" : "david.wargert@gmail.com",
+	"updated_at" : ISODate("2017-02-16T21:38:29.803Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58aadc2131fef6000fc9ffab"),
+	"name" : "Mehdi Rostami",
+	"wedding" : true,
+	"message" : "Självklart är jag med på upptakten i Toppstugan! ",
+	"email" : "rostami@kth.se",
+	"updated_at" : ISODate("2017-02-20T12:08:01.639Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58ab00a531fef6000fc9ffac"),
+	"name" : "Adelma, Tomas och Phillip Wargert",
+	"wedding" : true,
+	"message" : "Kommer gärna till upptakten.",
+	"email" : "adelma.wargert@gmail.com",
+	"updated_at" : ISODate("2017-02-20T14:43:49.489Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58b1e8f731fef6000fc9ffad"),
+	"name" : "Göran och Katarina Åkesson",
+	"wedding" : true,
+	"message" : "Vi kommer på upptakten. Vi ser så fram emot ert bröllop!!",
+	"email" : "katake@telia.com",
+	"updated_at" : ISODate("2017-02-25T20:28:39.948Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58b5304d31fef6000fc9ffae"),
+	"name" : "Helena och Erik Marten Sandberg",
+	"wedding" : true,
+	"message" : "Vi två(Erik &Helena)  samt barnen kommer på själva vigseln i kyrkan.",
+	"email" : "helenamarten@hotmail.com",
+	"updated_at" : ISODate("2017-02-28T08:09:49.891Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58b5be2231fef6000fc9ffaf"),
+	"name" : "Filip & Natali",
+	"wedding" : true,
+	"message" : "Filip äter allt. Natali äter inte söta djur (typ kor, grisar, lamm, kycklingar). Vi kommer på upptakten!",
+	"email" : "filip@schrewelius.se",
+	"updated_at" : ISODate("2017-02-28T18:14:58.077Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58bbfa4c31fef6000fc9ffb0"),
+	"name" : "Therese och Jonas Landolsi ",
+	"wedding" : true,
+	"message" : "Hej kära ni! Hoppas allt är väl! Stooort tack för er fina inbjudan, och gratulerar! Vi är så glada för er. Dessvärre måste vi tacka nej pga att en ny familjemedlem väntad anlända i början av augusti (obs inte officiellt ännu). Vågar inte resa iväg så tätt inpå förlossningen, ifall allt skulle kicka igång i förtid. Men jag hoppas vi får chansen att träffa er snart ändå.  Ni är alltid välkomna att hälsa på oss i Riddarhyttan. Kramar till hela familjen och lycka till med bröllopsplaneringen",
+	"email" : "therese.landolsi@gmail.com",
+	"updated_at" : ISODate("2017-03-05T11:45:16.145Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58bbfa8d31fef6000fc9ffb1"),
+	"name" : "Therese och Jonas Landolsi ",
+	"wedding" : false,
+	"message" : "Hej kära ni! Hoppas allt är väl! Stooort tack för er fina inbjudan, och gratulerar! Vi är så glada för er. Dessvärre måste vi tacka nej pga att en ny familjemedlem väntad anlända i början av augusti (obs inte officiellt ännu). Vågar inte resa iväg så tätt inpå förlossningen, ifall allt skulle kicka igång i förtid. Men jag hoppas vi får chansen att träffa er snart ändå.  Ni är alltid välkomna att hälsa på oss i Riddarhyttan. Kramar till hela familjen och lycka till med bröllopsplaneringen",
+	"email" : "",
+	"updated_at" : ISODate("2017-03-05T11:46:21.678Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58bc200431fef6000fc9ffb2"),
+	"name" : "Chris-Emelie Denstedt",
+	"wedding" : true,
+	"message" : "Jag (Chris-Emelie) och Gustav Denstedt kommer! Woop woop!\r\n\r\nGustav är laktosintolerant  men kan ta tabletter. \r\n\r\nVi kommer dock inte på fredagen. \r\n\r\nSes i juli!",
+	"email" : "chrisemelie@homail.com",
+	"updated_at" : ISODate("2017-03-05T14:26:12.542Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58bde05331fef6000fc9ffb3"),
+	"name" : "My Emanuelsson",
+	"wedding" : true,
+	"message" : "My och Arvid kommer på bröllopet och på efterfesten. Dyker även upp på dagshäng i toppstugan. Tar man med barnen till dagshänget?",
+	"email" : "myemanuelsson@gmail.com",
+	"updated_at" : ISODate("2017-03-06T22:18:59.960Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c18ca031fef6000fc9ffb4"),
+	"name" : "Ytan",
+	"wedding" : true,
+	"message" : "",
+	"email" : "",
+	"updated_at" : ISODate("2017-03-09T17:10:56.714Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c18d1131fef6000fc9ffb5"),
+	"name" : "Ann-Britt och Gunnar",
+	"wedding" : true,
+	"message" : "Vi kommer gärna också till toppstugan. ",
+	"email" : "annbritt.norin49@gmail.com",
+	"updated_at" : ISODate("2017-03-09T17:12:49.933Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c27f9431fef6000fc9ffb6"),
+	"name" : "Stina Ringner Isrselsson och Erik Ringner ",
+	"wedding" : true,
+	"message" : "",
+	"email" : "",
+	"updated_at" : ISODate("2017-03-10T10:27:32.237Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c2801e31fef6000fc9ffb7"),
+	"name" : "Stina Ringner Israelsson och Erik Ringner ",
+	"wedding" : true,
+	"message" : "Vi kommer gärna på upptakten!",
+	"email" : "stina.israel@gmail.com",
+	"updated_at" : ISODate("2017-03-10T10:29:50.388Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c4691931fef6000fc9ffb8"),
+	"name" : "Sandra Martén",
+	"wedding" : true,
+	"message" : "Sandra Martén och Peter Lundström kommer delta på allt 😊 Peter är känslig för laktos och skaldjur (det sistnämnda bara en stark avsky och inte en faktisk allergi 😉). ",
+	"email" : "sandlan__@hotmail.com",
+	"updated_at" : ISODate("2017-03-11T21:16:09.179Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c5b64331fef6000fc9ffb9"),
+	"name" : "Simon Meyer och Emma Eriksson. Kommer gärna på upptakten i Toppstugan! :)",
+	"wedding" : true,
+	"message" : "",
+	"email" : "simonmeyer89@hotmail.com",
+	"updated_at" : ISODate("2017-03-12T20:57:39.325Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c7991e31fef6000fc9ffba"),
+	"name" : "Kajsa Åkesson",
+	"wedding" : true,
+	"message" : "Kajsa Åkesson och Andréas Uppman Nilsson kommer hemskt gärna på bröllop!\r\nKajsa äter vegetariskt och vi, inklusive Marianne, är gärna med på upptakten i Toppstugan.",
+	"email" : "sara.kajsa.marianne@gmail.com",
+	"updated_at" : ISODate("2017-03-14T07:17:50.614Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58c8664131fef6000fc9ffbb"),
+	"name" : "Kristian Stenberg",
+	"wedding" : true,
+	"message" : "Amanda Gore",
+	"email" : "kristian.stenberg@gmail.com",
+	"updated_at" : ISODate("2017-03-14T21:53:05.085Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58cab03f31fef6000fc9ffbc"),
+	"name" : "Karl Hultqvist",
+	"wedding" : true,
+	"message" : "+Emma Herrlin. Vi kommer gärna på upptakten! Vad KUL det ska bli :) ",
+	"email" : "karl.hultqvist@gmail.com",
+	"updated_at" : ISODate("2017-03-16T15:33:19.180Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58d37dbe31fef6000fc9ffbd"),
+	"name" : "DSNRCO",
+	"wedding" : false,
+	"message" : "Disclaimer: We are not responsible for any financial loss, data loss, downgrade in search engine rankings, missed customers, undeliverable email or any other damages that you may suffer upon the expiration of anniklas.nu. For more information please refer to section 17.c.1a of our User Agreement. \n\n This is your final notice to renew anniklas.nu: \n\n https://dsnrco.com/?n=anniklas.nu&r=c \n\n In the event that anniklas.nu expires, we reserve the right to offer your listing to competing businesses in the same niche and region after 3 business days on an auction basis. \n\n This is the final communication that we are required to send out regarding the expiration of anniklas.nu \n\n Secure Online Payment: \n\n https://dsnrco.com/?n=anniklas.nu&r=c \n\n All services will be automatically restored on anniklas.nu if payment is received in full before expiration. Thank you for your cooperation.",
+	"email" : "noreply@dsnrco.com",
+	"updated_at" : ISODate("2017-03-23T07:48:14.656Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58d7dce731fef6000fc9ffbe"),
+	"name" : "Harriet och Göran Martén",
+	"wedding" : true,
+	"message" : "",
+	"email" : "harriet@martenslantbruk.se",
+	"updated_at" : ISODate("2017-03-26T15:23:19.501Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58d8138d31fef6000fc9ffbf"),
+	"name" : "Anna Ståhlkloo",
+	"wedding" : true,
+	"message" : "Anna och Pontus Ståhlkloo\r\nVi kommer till toppstugan😀",
+	"email" : "anna.staahlkloo@gmail.com",
+	"updated_at" : ISODate("2017-03-26T19:16:29.997Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58d81c0b31fef6000fc9ffc0"),
+	"name" : "Malin Olson Sarbajic ",
+	"wedding" : true,
+	"message" : "Malin\r\nMilos \r\nMila \r\nVi äter allt och är inte allergiska :-) \r\nNågot läckert alkoholfritt att dricka uppskattas ",
+	"email" : "malin_emo@icloud.com",
+	"updated_at" : ISODate("2017-03-26T19:52:43.119Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58d958ec31fef6000fc9ffc1"),
+	"name" : "Lina Holm",
+	"wedding" : true,
+	"message" : "Lina Holm\r\nFahad Wuzibat\r\n\r\n-fläsk\r\n\r\nKommer högst troligt på upptakten!",
+	"email" : "linaholm85@hotmail.com",
+	"updated_at" : ISODate("2017-03-27T18:24:44.112Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58daaa8931fef6000fc9ffc2"),
+	"name" : "Emma Israelsson, Jon Brask med Svante och Sigrid. Vi kommer ej på upptakten",
+	"wedding" : true,
+	"message" : "",
+	"email" : "emma.israelsson@mora.se",
+	"updated_at" : ISODate("2017-03-28T18:25:13.925Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58dac27f31fef6000fc9ffc3"),
+	"name" : "Jenny och Richard Meyer ",
+	"wedding" : true,
+	"message" : "Jenny Meyer skrev (via kontaktformuläret):\r\n\r\nJenny och Rickard kommer! Ska bli superkul! ❤️",
+	"email" : "jenny.maria.meyer@gmail.com",
+	"updated_at" : ISODate("2017-03-28T20:07:27.566Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58df5d3531fef6000fc9ffc4"),
+	"name" : "Anahita",
+	"wedding" : true,
+	"message" : "Anahita + Gustav. Kommer bröllopsdagen.",
+	"email" : "nowana@hotmail.com",
+	"updated_at" : ISODate("2017-04-01T07:56:37.662Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58e5df0931fef6000fc9ffc5"),
+	"name" : "Kim martén",
+	"wedding" : true,
+	"message" : "Hej! Har missat er sista anmälan men hoppas det ska gå ändå. 😬 Vi vill gärna närvara på er stora dag 💕 Kim, Anders, Alvin, oliver o Teodor. Tyvärr kan vi inte delta på festen utan endast vigseln. \r\nKram Kim mfam.",
+	"email" : "kimmlan@hotmail.com",
+	"updated_at" : ISODate("2017-04-06T06:24:09.259Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58e61ad431fef6000fc9ffc6"),
+	"name" : "Anneli Ström Olson ",
+	"wedding" : true,
+	"message" : "Anneli Ström Olson ",
+	"email" : "a.m.strom.olson@gmail.com",
+	"updated_at" : ISODate("2017-04-06T10:39:16.017Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58e633e231fef6000fc9ffc7"),
+	"name" : "Elisabeth Johansson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "maria.hjalmarsson@live.se",
+	"updated_at" : ISODate("2017-04-06T12:26:10.456Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58e6ad2a31fef6000fc9ffc8"),
+	"name" : "Per Åkesson",
+	"wedding" : true,
+	"message" : "",
+	"email" : "per.akesson@live.com",
+	"updated_at" : ISODate("2017-04-06T21:03:38.596Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58ea7c0531fef6000fc9ffc9"),
+	"name" : "Petter Wargert",
+	"wedding" : true,
+	"message" : "Hej! Vi kommer gärna på ert bröllop. Vi kommer dessvärre inte delta på upptakten.\r\n\r\nMvh\r\nPetter och Sara-Lisa",
+	"email" : "wargert@hotmail.com",
+	"updated_at" : ISODate("2017-04-09T18:23:01.353Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("58eb627a31fef6000fc9ffca"),
+	"name" : "Åsa och Lars Edler",
+	"wedding" : true,
+	"message" : "Tack, vi kommer och är med på toppstugan",
+	"email" : "lars.edler@telia.com",
+	"updated_at" : ISODate("2017-04-10T10:46:18.748Z"),
+	"__v" : 0
+}
+{
+	"_id" : ObjectId("592c19bb3e1056000fcf4c3a"),
+	"name" : "Sara och Marc",
+	"wedding" : true,
+	"message" : "Sara Karlsson och Marc Engelmann\r\nVi vill vara med pa fredag kvällen ocksa :)\r\nInga allergier",
+	"email" : "boggsara@gmail.com",
+	"updated_at" : ISODate("2017-05-29T12:53:15.741Z"),
+	"__v" : 0
+}
