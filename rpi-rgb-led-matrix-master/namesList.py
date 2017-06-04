@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+from __future__ import unicode_literals
+import PIL
 names = [
     "Stina wargert ",
     "Hampus Malmberg",
@@ -68,5 +71,4 @@ names = [
     "Ida Hjalmarsson",
     "Tove och Levent",
     "Maria Hjalmarsson",
-    "Maria Hjalmarsson"
 ]
