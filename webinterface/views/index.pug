@@ -1,21 +1,20 @@
 extends layout/layout
 
 block content
+div(class="page-header")
+  h1= title
   div(class="container")
-    div(class="page-header")
-      h1= title
-    h3 Programs
     div(class="row")
       each f in functions
-        div(class="col-md-4")
+        div(class="col-xs-6 well well-sm")
           unless f.argument
-            h3= f.name
+            h4= f.name
             p= f.description
             a(href= '/scripts/' + f.api)
               button(type='button', class="btn-default")= f.executionName
           if f.argument
             form(action='/scripts/' + f.api, role="form", method="post")
-              h3= f.name
+              h4= f.name
               p= f.description
               input(type="text",name="argument",value=f.argument)
               input(type="submit",value=f.executionName)
