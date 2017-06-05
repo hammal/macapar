@@ -6,7 +6,7 @@ block content
       h1= title
     div(class="row")
       each f in functions
-        div(class="col-xs-6 well well-sm")
+        div(class="col-sm-4 col-sm-offset-2 well well-sm")
           unless f.argument
             h4= f.name
             p= f.description
