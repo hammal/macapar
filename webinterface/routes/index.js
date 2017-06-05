@@ -35,7 +35,7 @@ var toast = {
 var intro = {
 	name:"Intro",
   executionName:"Start",
-	executable : 'echo "Intro Intro Intro"',
+	executable : 'sudo python run_emojis.py',
 	description : "This is the introduction script",
 	api : 'intro'
 };
