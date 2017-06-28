@@ -153,6 +153,7 @@ router.post('/scripts/:name', function(req, res) {
 					console.log('Could not get the lock within 5 seconds, so gave up');
 				} else {
 					console.log('We got the lock!');
+					console.log('At time')
 					// do stuff
 					console.log(`Running ${functions[index].name} executable ${functions[index].executable} "${req.body.argument}"`)
 					exec(`${preExecution} ${functions[index].executable} "${req.body.argument}"`, function callback(error, stdout, stderr){
