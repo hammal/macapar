@@ -90,13 +90,13 @@ var restart = {
 	api: "restart"
 };
 
-// var shutdown = {
-// 	name:"Shutdown",
-// 	executionName:"Now",
-// 	executable: "sudo shutdown -h now",
-// 	description: "This button turns the RPi off safely",
-// 	api: "shutdown"
-// };
+var shutdown = {
+	name:"Shutdown",
+	executionName:"Now",
+	executable: "sudo shutdown -h now",
+	description: "This button turns the RPi off safely",
+	api: "shutdown"
+};
 
 var functions = [
 	snappsvisa,
@@ -107,8 +107,8 @@ var functions = [
 	antikrundan,
   GunillaAnders,
 	TextArgument,
-	Slumpen,
-	restart
+	Slumpen
+	// restart
 	// shutdown
 ];
 
