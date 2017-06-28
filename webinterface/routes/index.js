@@ -131,7 +131,6 @@ router.get('/scripts/:name', function(req, res) {
       		exec(`${preExecution} ${functions[index].executable} `, function callback(error, stdout, stderr){
         		if (error) {
             	console.error(`exec error: ${error}`);
-            	return;
           	}
           	console.log(`stdout: ${stdout}`);
           	// console.log(`stderr: ${stderr}`);
@@ -159,7 +158,6 @@ router.post('/scripts/:name', function(req, res) {
 					exec(`${preExecution} ${functions[index].executable} "${req.body.argument}"`, function callback(error, stdout, stderr){
 						if (error) {
 							console.error(`exec error: ${error}`);
-							return;
 						}
 						console.log(`stdout: ${stdout}`);
 						// console.log(`stderr: ${stderr}`);
