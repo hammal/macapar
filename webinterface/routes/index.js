@@ -108,7 +108,7 @@ var functions = [
   GunillaAnders,
 	TextArgument,
 	Slumpen,
-	restart,
+	restart
 	// shutdown
 ];
 
