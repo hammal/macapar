@@ -109,7 +109,7 @@ var functions = [
 	TextArgument,
 	Slumpen,
 	restart,
-	shutdown
+	// shutdown
 ];
 
 
