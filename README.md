@@ -13,4 +13,4 @@ Följande länkar är intressanta
 10) [WifiHotspot out off your Raspberry pi](http://elinux.org/RPI-Wireless-Hotspot)
 11) [This is the one I followed for wifi](https://medium.com/@edoardo849/turn-a-raspberrypi-3-into-a-wifi-router-hotspot-41b03500080e)
 12) [Setup DNS](https://www.raspberrypi.org/learning/networking-lessons/lesson-4/plan/)
-13) [Secondly I used this one](..)
+13) [Port Forwarding using iptables](https://raspberrypi.stackexchange.com/questions/37885/raspberry-pi-port-forwarding-with-nodejs-server)
