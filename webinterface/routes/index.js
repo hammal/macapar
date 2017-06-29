@@ -107,9 +107,9 @@ var functions = [
 	antikrundan,
   GunillaAnders,
 	TextArgument,
-	Slumpen,
-	restart,
-	shutdown
+	Slumpen
+	// restart,
+	// shutdown
 ];
 
 
