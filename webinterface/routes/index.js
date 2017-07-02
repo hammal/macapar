@@ -122,8 +122,10 @@ var functions = [
   Leif,
 	antikrundan,
   GunillaAnders,
-	TextArgument,
-	Slumpen
+	// TextArgument,
+	Slumpen,
+	martin,
+	gunnar
 	// restart,
 	// shutdown
 ];
