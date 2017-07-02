@@ -40,6 +40,22 @@ var intro = {
 	api : 'intro'
 };
 
+var martin = {
+	name:"Martin",
+  executionName:"Start",
+	executable : 'sudo python intro_martin.py',
+	description : "Martin's intro",
+	api : 'martin'
+};
+
+var gunnar = {
+	name:"Gunnar",
+  executionName:"Start",
+	executable : 'sudo python intro_gunnar.py',
+	description : "Gunnar's intro",
+	api : 'gunnar'
+};
+
 var antikrundan = {
 	name:"Antikrundan",
 	executionName: "Kör",
