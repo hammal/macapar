@@ -7,7 +7,6 @@ import ImageDraw
 import time
 import ImageFont
 from rgbmatrix import Adafruit_RGBmatrix
-
 import ImageOps
 import pickle
 import random
