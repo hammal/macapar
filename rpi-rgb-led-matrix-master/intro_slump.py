@@ -63,7 +63,7 @@ print(font.getsize(text[0]))
 for n in range(18,40):
 	font=ImageFont.truetype("DejaVuSerif.ttf",size=n)
 	text=names[-2]
-	if font.getsize(text)[0] > 128:
+	if (font.getsize(text)[0] > 128) or (font.getsize(text)[1]>28):
 		stopsize=n-1
 		matrix.Clear()
 		break

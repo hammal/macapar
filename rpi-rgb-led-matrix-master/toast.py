@@ -21,17 +21,34 @@ from rgbmatrix import Adafruit_RGBmatrix
 matrix = Adafruit_RGBmatrix(32, 4)
 
 
-image = Image.open("glas2.tif")
-size = 40,40
-image.thumbnail(size, Image.ANTIALIAS)
-image.load()          # Must do this before SetImage() calls
+im1 = Image.open("glas1.tif")
+im2 = Image.open("glas1.tif")
+size = 32,32
+print(im2.size)
+im1.thumbnail(size, Image.ANTIALIAS)
+im1.load() 
+im2.thumbnail(size, Image.ANTIALIAS)
+im2.load()     
+print(im1.size)
+     # Must do this before SetImage() calls
 # matrix.Fill(0x6F85FF) # Fill screen to sky color
+# for m in range(1,6,1):
+# 	for n in range(128, -image.size[0], -1): # Scroll R to L
+# 		matrix.SetImage(image.im.id, n, 0)
+# 		time.sleep(0.025)
+# 		matrix.Clear()
+
 for m in range(1,6,1):
-	for n in range(128, -image.size[0], -1): # Scroll R to L
-		matrix.SetImage(image.im.id, n, 0)
+	for n in range(128, 64, -1): # Scroll R to L
+		matrix.SetImage(im1.im.id, n, 0)
+		matrix.SetImage(im2.im.id, -(n-128+im2.size[0]), 0)
 		time.sleep(0.025)
-
-
+		matrix.Clear()
+	for n in range(64, 128, 1): # Scroll R to L
+		matrix.SetImage(im1.im.id, n, 0)
+		matrix.SetImage(im2.im.id, -(n-128+im2.size[0]), 0)
+		time.sleep(0.025)
+		matrix.Clear()
 
 
 # # 24-bit RGB scrolling example.
