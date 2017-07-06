@@ -114,6 +114,14 @@ var shutdown = {
 	api: "shutdown"
 };
 
+var abort = {
+	name:"Abort",
+	executionName:"Stop",
+	executable: "pkill -9 python",
+	description: "Abort all running python scripts",
+	api: "abort"
+};
+
 var functions = [
 	snappsvisa,
   checkStatus,
@@ -126,9 +134,13 @@ var functions = [
 	Slumpen,
 	martin,
 	gunnar
-	// restart,
-	// shutdown
 ];
+
+var utilities = [
+	abort,
+	restart,
+	shutdown
+]
 
 
 /* GET home page. */
@@ -136,6 +148,26 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'MacapÄär', functions: functions});
 });
 
+
+//  This is for the utilities functions to check if they were triggered.
+//  They have highest priority and are not locked
+router.get('/scripts/:name', function(req, res) {
+  for(index in utilities) {
+    if( utilities[index].api == req.params.name){
+			console.log(`Running ${utilities[index].name} executable ${utilities[index].executable}`)
+  		exec(`${utilities[index].executable} `, function callback(error, stdout, stderr){
+    		if (error) {
+        	console.error(`exec error: ${error}`);
+      	}
+      	console.log(`stdout: ${stdout}`);
+      	// console.log(`stderr: ${stderr}`);
+			});
+      res.redirect('/')
+    }
+  }
+});
+
+// This is the normal scripts paths
 router.get('/scripts/:name', function(req, res) {
   for(index in functions) {
     if( functions[index].api == req.params.name){
@@ -161,7 +193,7 @@ router.get('/scripts/:name', function(req, res) {
   }
 });
 
-
+// This is for scripts with arguments
 router.post('/scripts/:name', function(req, res) {
 	for(index in functions) {
 		if( functions[index].api == req.params.name){
