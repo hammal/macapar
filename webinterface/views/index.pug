@@ -20,7 +20,7 @@ block content
               p= f.description
     div(class="row")
       each f in utilities
-        div(class="col-xs-12 col-xs-offset-1 well well-sm rounded")
+        div(class="col-xs-12 col-xs-offset-1 well well-sm rounded" style="background:#FF0000")
           h4= f.name
           a(href= '/scripts/' + f.api)
             button(type='button', class="btn-default")= f.executionName

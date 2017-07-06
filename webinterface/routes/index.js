@@ -145,13 +145,13 @@ var utilities = [
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'MacapÄär', functions: functions});
+  res.render('index', { title: 'MacapÄär', functions: functions, utilities:utilities});
 });
 
 
 //  This is for the utilities functions to check if they were triggered.
 //  They have highest priority and are not locked
-router.get('/scripts/:name', function(req, res) {
+router.get('/scripts/:name', function(req, res, next) {
   for(index in utilities) {
     if( utilities[index].api == req.params.name){
 			console.log(`Running ${utilities[index].name} executable ${utilities[index].executable}`)
@@ -165,6 +165,8 @@ router.get('/scripts/:name', function(req, res) {
       res.redirect('/')
     }
   }
+	console.log("No utilities to be done");
+	next();
 });
 
 // This is the normal scripts paths
