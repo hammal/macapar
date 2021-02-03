@@ -1,6 +1,5 @@
 # macapar
-
-Följande länkar är intressanta
+This project is based on:
 1) [Adafruit's Hat](https://learn.adafruit.com/raspberry-pi-led-matrix-display/software)
 2) [Adafruit 16X32](https://learn.adafruit.com/16x32-rgb-display-with-raspberry-pi-part-2/software)
 3) [HZeller's rpi-rbg-led-matrix library](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/examples-api-use)
